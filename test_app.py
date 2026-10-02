@@ -6,5 +6,5 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(sumar(2, 3), 5)
         self.assertEqual(sumar(-1, 1), 0)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
